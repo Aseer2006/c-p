@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+main()
+{
+   int exp;
+   int deg;
+   printf("Welcome to Danish\n");
+   
+   printf("Enter Exp=");
+   scanf("%d",&exp);
+   
+   
+   
+   if (exp >= 3)
+   {
+    
+     printf ("Welome to ABC company\n"); 
+      printf("Enter Degree , for ME enter 7 and B.E enter 8=");
+   scanf("%d",&deg);
+     
+          if (deg ==7)
+          {
+              printf ("Come today for interview");
+          }
+          else
+          {
+               printf ("Come tomorrow for interview");
+              
+          }
+        
+   } 
+   else
+   {
+     printf ("sorry");  
+   }
+   
+   printf ("\nThank you");
+   
+   
+}
