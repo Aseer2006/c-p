@@ -1,0 +1,44 @@
+#include <stdio.h>
+main()
+ 
+{ 
+    int age;
+    int name;
+
+printf("welcome to Voting year 2023\n");
+printf("Enter your age = ");
+scanf("%d" , &age );
+
+
+    if (age >=18)
+    {
+        
+    printf("congrats you are eligible for voting\n ");
+    printf("Enter 1 for BJP and enter 2 CONG = ");
+    scanf("%d" , &name);
+   
+    if (name ==1)
+   {
+    printf("your voting is done ");
+   }
+   else
+   { 
+       printf("your voting not done ");
+   
+   }
+    
+   }
+   
+else
+
+   {
+    printf(" Sorry you are not eligible or voting");
+    
+   }
+
+   printf("\nThank you ");
+
+
+
+
+}
