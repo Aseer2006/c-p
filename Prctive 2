@@ -1,0 +1,55 @@
+#include <stdio.h>
+main()
+
+{
+    
+    int ndg;
+    int bnc;
+    
+printf("welcome to TRAVEL EASY company LTD\n")    ;
+printf(" Enter your ndg =");
+scanf("%d" , &ndg);
+
+
+
+   if (ndg >=5  <=50)
+   {
+    printf(" welcome to TRAVEL EASY company LTD\n");
+    printf("Enter bnc\nenter 2 for MK\nenter 3 for ME\nenter 4 for CO\n=");
+     scanf("%d" , &bnc);
+     if (bnc==2)
+     {
+         
+         printf("thank you for joining MK\n");
+        
+     }
+     if (bnc ==3)
+     {
+         
+         printf("thank you for joining ME");
+     
+     }
+     else 
+     {
+         
+         printf("Thank you for joining CO");
+     
+     }
+     
+     }
+    
+    else 
+{
+        
+printf(" Sorry you are not eligible ");
+     
+} 
+    
+    
+    
+         printf("\n Thank you\n Visit again.");
+    
+    
+    
+    
+}
