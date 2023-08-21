@@ -1,7 +1,6 @@
 #include <stdio.h>
 main()
- 
-{ 
+  { 
     int age;
     int name;
 
@@ -19,11 +18,15 @@ scanf("%d" , &age );
    
     if (name ==1)
    {
-    printf("your voting is done ");
+    printf("your voting is done for BJP ");
+   }
+   else if (name ==2)
+   {
+       printf("your voting is done for CONG");
    }
    else
    { 
-       printf("your voting not done ");
+       printf("Invalid input your voting is not done pls try again ");
    
    }
     
