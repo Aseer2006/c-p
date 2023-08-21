@@ -12,7 +12,7 @@ scanf("%d" , &ndg);
 
 
 
-   if (ndg >=5  <=50)
+   if (ndg >=5)
    {
     printf(" welcome to TRAVEL EASY company LTD\n");
     printf("Enter bnc\nenter 2 for MK\nenter 3 for ME\nenter 4 for CO\n=");
