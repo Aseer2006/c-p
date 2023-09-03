@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+main()
+{
+int a;
+ 
+    printf("enter any no. = ");
+    scanf("%d" , &a);
+    
+    if (a >0)
+    {
+        printf("your no. is greater than 0");
+    }
+    else if (a<0)
+    {
+        printf("your no. is smaller than 0");
+    }
+    else 
+    printf("your number is same as 0");
+    
+}
+
+
+
