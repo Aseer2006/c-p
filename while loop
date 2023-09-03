@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+main()
+{
+    int i;
+    while (i<=10)
+    {
+        printf("hello aseer %d\n" , i);
+        i++;
+    }
+}
