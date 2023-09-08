@@ -14,3 +14,22 @@ void main()
     }
     
 }
+// Online C compiler to run C program online
+#include <stdio.h>
+main()
+{
+    int i,r, n, rev=0, q;
+    printf("enter no.");
+    scanf("%d" , &n);
+    
+for (i=1 ;i<=n;i++)
+{
+    r=n%10;
+    rev=rev*10+r;
+    q=n/10;
+    n=q;
+}
+    printf("enter no. is %d" , rev);
+    
+}
+    
