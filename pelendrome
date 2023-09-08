@@ -1,0 +1,29 @@
+#include<stdio.h>
+void main() 
+{
+    int n;
+    int num;
+    int rev=0;
+    int i;
+
+    printf("enter no. ");
+    scanf("%d" , &n);
+    int userno=n;
+
+for ( i=1;n!=0; i++)
+    {
+    num=n%10;
+    rev=rev*10+num;
+    n=n/10;
+    }
+    if (userno==rev)
+    {
+        printf("your no is pelendrome");
+    }
+    else
+    {
+        printf("your no. is not a pelendrome");
+        
+    }
+    
+}
